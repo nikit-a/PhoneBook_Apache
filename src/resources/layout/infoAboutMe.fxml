@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.hse.kdz.controllers.InfoAboutMeController">
+    <children>
+        <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="66.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+            <image>
+                <Image url="@../images/cat.jpg" />
+            </image>
+        </ImageView>
+        <VBox layoutX="409.0" layoutY="14.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="10.0">
+            <children>
+                <Label text="Номер группы - 199" VBox.vgrow="ALWAYS">
+                    <VBox.margin>
+                        <Insets left="20.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+                </Label>
+                <Label text="Ткаченко">
+                    <VBox.margin>
+                        <Insets left="65.0" top="10.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+                </Label>
+                <Label text="Никита">
+                    <VBox.margin>
+                        <Insets left="74.0" top="5.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+                </Label>
+                <Label text="Сергеевич">
+                    <VBox.margin>
+                        <Insets left="60.0" top="5.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+                </Label>
+            </children>
+        </VBox>
+        <Label layoutX="145.0" layoutY="236.0" text="Ура, нашел колбасу" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="10.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="likeButton" layoutX="392.0" layoutY="256.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="116.0" text="LIKE" AnchorPane.bottomAnchor="89.0" AnchorPane.rightAnchor="92.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

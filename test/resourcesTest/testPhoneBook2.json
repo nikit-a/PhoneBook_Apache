@@ -1,0 +1,20 @@
+[ {
+  "firstName" : "Игорь",
+  "secondName" : "Корнилов",
+  "patronymic" : "Владиславович",
+  "mobilePhone" : "89858432373",
+  "homePhone" : "",
+  "address" : "Лубянка, 23",
+  "birthday" : null,
+  "comment" : ""
+},
+  {
+    "firstName" : "Никита",
+    "secondName" : "Ткаченко",
+    "patronymic" : "Сергеевич",
+    "mobilePhone" : "",
+    "homePhone" : "84953879816",
+    "address" : "Лубянка, 33",
+    "birthday" : [2001, 9, 16],
+    "comment" : "дистанционка надоела :("
+  }]

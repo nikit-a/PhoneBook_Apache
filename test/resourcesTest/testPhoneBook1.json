@@ -1,0 +1,10 @@
+[ {
+  "firstName" : "Игорь",
+  "secondName" : "Корнилов",
+  "patronymic" : "Владиславович",
+  "mobilePhone" : "89858432373",
+  "homePhone" : "",
+  "address" : "Лубянка, 23",
+  "birthday" : null,
+  "comment" : ""
+} ]

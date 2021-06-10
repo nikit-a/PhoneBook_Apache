@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="600" maxWidth="440" minHeight="300" minWidth="220" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.hse.kdz.controllers.ContactController">
+    <children>
+        <Label fx:id="labelContact" alignment="CENTER" contentDisplay="CENTER" layoutX="51.0" layoutY="4.0" text="Редактирование контакта" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+        <SplitPane dividerPositions="0.2966507177033493" layoutX="20.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: transparent;">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" style="-fx-background-color: transparent;" text="Имя" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="7.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" style="-fx-background-color: transparent;" text="Фамилия" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="37.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="36.0" style="-fx-background-color: transparent;" text="Отчество" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="67.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="9.0" layoutY="52.0" style="-fx-background-color: transparent;" text="Мобильный" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="102.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="67.0" style="-fx-background-color: transparent;" text="телефон" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="113.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="75.0" style="-fx-background-color: transparent;" text="Домашний" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="140.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="85.0" style="-fx-background-color: transparent;" text="телефон" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="151.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="97.0" style="-fx-background-color: transparent;" text="Адрес" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="182.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="119.0" style="-fx-background-color: transparent;" text="День" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="213.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="39.0" layoutY="124.0" style="-fx-background-color: transparent;" text="рождения" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="224.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="142.0" style="-fx-background-color: transparent;" text="Заметки" textAlignment="CENTER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="257.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                    <children>
+                        <VBox layoutX="16.0" layoutY="-20.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <HBox prefHeight="100.0" prefWidth="200.0" />
+                                <TextField fx:id="fieldFirstName" VBox.vgrow="ALWAYS">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets left="3.0" right="3.0" top="2.0" />
+                                    </VBox.margin>
+                                    <tooltip>
+                                        <Tooltip text="Имя должно состоять из букв и содержать хотя бы одну" />
+                                    </tooltip>
+                                </TextField>
+                                <TextField fx:id="fieldSecondName">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets left="3.0" right="3.0" top="3.0" />
+                                    </VBox.margin>
+                                    <tooltip>
+                                        <Tooltip text="Фамилия должна состоять из букв и содержать хотя бы одну" />
+                                    </tooltip>
+                                </TextField>
+                                <TextField fx:id="fieldPatronymic">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets left="3.0" right="3.0" top="3.0" />
+                                    </VBox.margin>
+                                    <tooltip>
+                                        <Tooltip text="Отчество должно состоять из букв и содержать хотя бы одну" />
+                                    </tooltip>
+                                </TextField>
+                                <TextField fx:id="fieldMobilePhone">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets left="3.0" right="3.0" top="15.0" />
+                                    </VBox.margin>
+                                    <tooltip>
+                                        <Tooltip text="Мобильный должен состоять из 11 цифр" />
+                                    </tooltip>
+                                </TextField>
+                                <TextField fx:id="fieldHomePhone">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets left="3.0" right="3.0" top="10.0" />
+                                    </VBox.margin>
+                                    <tooltip>
+                                        <Tooltip text="Домашний должен состоять из 11 цифр" />
+                                    </tooltip>
+                                </TextField>
+                                <TextField fx:id="fieldAddress">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets left="3.0" right="3.0" top="10.0" />
+                                    </VBox.margin>
+                                </TextField>
+                                <DatePicker fx:id="fieldBirthday" editable="false">
+                                    <VBox.margin>
+                                        <Insets left="3.0" right="3.0" top="10.0" />
+                                    </VBox.margin>
+                                </DatePicker>
+                            </children>
+                        </VBox>
+                        <Button fx:id="btnCancel" layoutX="9.0" layoutY="233.0" mnemonicParsing="false" text="Отмена" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="3.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="btnSave" layoutX="56.0" layoutY="232.0" mnemonicParsing="false" text="Сохранить" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="3.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Button>
+                        <TextArea fx:id="fieldNotes" layoutY="241.0" prefHeight="200.0" wrapText="true" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="252.0" />
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>
